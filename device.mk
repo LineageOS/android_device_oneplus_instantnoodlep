@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2376
 TARGET_SCREEN_WIDTH := 1080
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
