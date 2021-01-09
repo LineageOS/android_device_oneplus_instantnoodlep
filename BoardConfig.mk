@@ -38,6 +38,7 @@ BOARD_SUPER_PARTITION_SIZE := 15032385536
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_UI_SCREEN_DENSITY := 480
 
 # inherit from the proprietary version
 -include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
