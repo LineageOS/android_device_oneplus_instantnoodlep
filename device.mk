@@ -24,8 +24,12 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_PACKAGES += \
+    OPlusFrameworksResTarget \
+    OPlusSettingsProviderResTarget \
+    OPlusSystemUIResTarget
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -47,6 +51,10 @@ PRODUCT_PACKAGES += \
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oneplus
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
