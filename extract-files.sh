@@ -14,6 +14,15 @@ fi
 
 set -e
 
+function blob_fixup() {
+    case "${1}" in
+    odm/etc/init/wlchgmonitor.rc)
+        sed -i '/disabled/d' "${2}"
+        sed -i '/seclabel u:r:wlchgmonitor:s0/d' "${2}"
+        ;;
+    esac
+}
+
 export DEVICE=instantnoodlep
 export DEVICE_COMMON=sm8250-common
 export VENDOR=oneplus
