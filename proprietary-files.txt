@@ -48,6 +48,10 @@ odm/lib64/camera/com.qti_instantnoodlep.sensor.imx586.so
 odm/lib64/camera/com.qti_instantnoodlep.sensor.imx689.so
 odm/lib64/camera/com.qti_instantnoodlep.sensor.s5k3m5.so
 
+# Charger
+odm/bin/wlchgmonitor
+odm/etc/init/wlchgmonitor.rc
+
 # Fingerprint
 odm/vendor/firmware/gfp9608.b00
 odm/vendor/firmware/gfp9608.b01
