@@ -16,6 +16,23 @@
       "message": "Turns out this dimen doesn\u0027t get scaled down based on screen resolution",
       "revId": "fe09e7ccf5b7a24edb364f43fd8fc3c72f9aa477",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61383adf_b3b233a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2022-11-23T02:20:29Z",
+      "side": 1,
+      "message": "Resolved as of: https://review.lineageos.org/q/Idfbf8e70664226919b603d92616104c09e94e3d1",
+      "revId": "fe09e7ccf5b7a24edb364f43fd8fc3c72f9aa477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
