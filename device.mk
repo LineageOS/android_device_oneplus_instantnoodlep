@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oplus
 
 # Shipping API
+PRODUCT_PACKAGES_SHIPPING_API_LEVEL_29 :=
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Soong namespaces
