@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oplus
+    vendor.lineage.powershare@1.0-service.default
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
