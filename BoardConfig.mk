@@ -15,6 +15,10 @@ TARGET_SCREEN_DENSITY := 450
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# PowerShare
+TARGET_POWERSHARE_DISABLED := disable
+TARGET_POWERSHARE_PATH := /proc/wireless/enable_tx
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
