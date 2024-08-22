@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    fstab.qcom.ramdisk
+    fstab.qcom.ramdisk \
+    init.oplus.target.rc
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -40,7 +41,7 @@ PRODUCT_PACKAGES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oplus
+    vendor.lineage.powershare@1.0-service.default
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
