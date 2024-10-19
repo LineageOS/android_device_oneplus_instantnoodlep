@@ -28,6 +28,7 @@ module = ExtractUtilsModule(
     'oneplus',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
+    check_elf=True,
     add_firmware_proprietary_file=True,
 )
 
