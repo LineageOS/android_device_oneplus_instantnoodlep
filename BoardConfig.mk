@@ -9,9 +9,6 @@ include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/instantnoodlep
 
-# Display
-TARGET_SCREEN_DENSITY := 450
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
