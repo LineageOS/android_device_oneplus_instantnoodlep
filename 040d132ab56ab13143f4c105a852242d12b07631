@@ -16,6 +16,24 @@
       "message": "I think that I prefer the extended declaration. Will change it in hw/oplus.",
       "revId": "040d132ab56ab13143f4c105a852242d12b07631",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67a23301_28b4adac",
+        "filename": "touch/include/TouchscreenGestureConfig.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-25T21:22:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b36a9ff5_fa4fd799",
+      "revId": "040d132ab56ab13143f4c105a852242d12b07631",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
